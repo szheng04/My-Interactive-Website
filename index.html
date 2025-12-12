@@ -1,37 +1,82 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Test Page</title>
+  <meta charset="UTF-8">
+  <title>Our Story 💕</title>
   <style>
     body {
       background-color: #FFF9EE;
       font-family: 'DynaPuff', cursive;
+      margin: 0;
       text-align: center;
-      padding: 50px;
     }
-    h1 {
-      color: #BFA989;
-      font-size: 48px;
-    }
-    .bubble-btn {
-      display: inline-block;
+    header {
       background-color: #BFA989;
-      color: #333;
-      padding: 15px 30px;
-      border-radius: 50px;
-      text-decoration: none;
-      transition: transform 0.3s ease, background-color 0.3s ease;
+      padding: 20px;
     }
-    .bubble-btn:hover {
-      background-color: #d4c4a3;
-      transform: scale(1.2);
+    header h1 {
+      margin: 0;
+      color: #333;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+    .about-img {
+      width: 300px;
+      border-radius: 20px;
+      margin-right: 30px;
+    }
+    .about-text {
+      max-width: 500px;
+      text-align: left;
+    }
+    footer {
+      background-color: #BFA989;
+      padding: 10px;
+      color: #333;
     }
   </style>
 </head>
 <body>
-  <h1>Hello World 🌸</h1>
-  <p>If you can see this, your site works!</p>
-  <a href="#" class="bubble-btn">Click Me</a>
+  <!-- Banner/Header -->
+  <header>
+    <h1>Our Story 💕</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Story</a>
+      <a href="gallery.html">Love Notes</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="about-section">
+      <img src="images/us-placeholder.jpg" alt="Us together" class="about-img">
+      <div class="about-text">
+        <h2>How It All Began 🌸</h2>
+        <p>
+          This page is dedicated to our journey. I’ll keep adding little notes, 
+          memories, and surprises here so you can feel close even when you’re far away.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with love by Selina ✨</p>
+  </footer>
 </body>
 </html>
